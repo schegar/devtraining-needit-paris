@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="state" table="x_58872_needit_needit" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0b229350fa03200cd674f8ce1050ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Approval</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecb229350fa03200cd674f8ce1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b229350fa03200cd674f8ce1050eac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Feedback</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60b229350fa03200cd674f8ce1050eae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8b229350fa03200cd674f8ce1050eaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Withdrawn</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0b229350fa03200cd674f8ce1050eb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_58872_needit_needit</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3b1f77284fea3200018eb3728110c7b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_needit_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>4e1181bedbae0c50f492c5970596196b</instance_id>
+        <instance_name>dev98037</instance_name>
+        <name>sys_choice_x_58872_needit_needit_state</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_58872_needit_needit" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0b229350fa03200cd674f8ce1050ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Approval</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecb229350fa03200cd674f8ce1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b229350fa03200cd674f8ce1050eac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Feedback</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60b229350fa03200cd674f8ce1050eae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8b229350fa03200cd674f8ce1050eaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Withdrawn</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0b229350fa03200cd674f8ce1050eb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_58872_needit_needit</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3b1f77284fea3200018eb3728110c7b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_needit_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>-252733642</payload_hash>
+        <record_name>NeedIt.State</record_name>
+        <reverted_from/>
+        <source>266fb6b22f4350107613de1a2799b648</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-08 13:17:45</sys_created_on>
+        <sys_id>017f3ab22f4350107613de1a2799b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1746ddd7b000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-08 13:17:45</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>8d7f3ab2584350109aceb2a384c4f09b</update_guid>
+        <update_guid_history>8d7f3ab2584350109aceb2a384c4f09b:0,d87ff6b28c43501083272a32c8316377:1528579032,d07ff6b26e435010022df0b7d3897e74:1886447883,dc7ff6b2784350103f5f46efb9067e70:-1196625253,d87ff6b2e94350101ee465b971c3456d:-1669741480,d47ff6b204435010970166921d13d66a:775889921,d07ff6b28243501012cfd7b8d7d22067:-1246223066,36f0b57e124f101045d7b9e71b706e27:0,ddf0357edd4f1010719fae1f5eceae13:1528579032,d5f0357eb74f1010be0ea1f7d731e010:1886447883,d1f0357e7f4f1010e70e128a09f03d0d:-1196625253,ddf0357ee44f1010c8f34652cd78bd09:-1669741480,99f0357ef94f101043c41bc701161a06:775889921,9df0f17ee94f10107a8a806b3989adf6:-1246223066,79697966d2071010da7acbe0aa76985b:0,46d8fd26f00710100a6014fc4e767ae1:1528579032,4ed8fd26810710100129255f8da208dd:1886447883,4ad8fd26cd071010329c80c3852e3eda:1232437321,46d8fd2641071010e6bc031b93478ed7:-368441071,71d8fd267f071010ea9e20763cd95ed4:917347157,7dd8fd26e00710105c5efc9eda8451d0:1093339304,cce435a2ac0710101e5743d9d6574584:-2037482732</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-10 08:01:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>c97f3ab22f4350107613de1a2799b678</sys_id>
+        <sys_metadata>c97f3ab22f4350107613de1a2799b678</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_choice_x_58872_needit_needit_state</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_58872_needit_needit_state">017f3ab22f4350107613de1a2799b69c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-10 08:01:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
